@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants vs Zombie</title>
+
+    <link rel="Icon" href="./firstpage/photo_2025-02-02_05-24-02-removebg-preview.png">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/menu.css">
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./style/keyframes.css">
+
+    <link rel="stylesheet" href="./keyframes/keyframes.css">
+    
+</head>
+<body>
+    <div id="stage">
+        <audio src="./sound/mainmenu/auMainMenu.mp3" id="auMainMenu"></audio>
+        <audio src="./sound/mainmenu/gravebutton.ogg" id="auMainMenuGrave"></audio>
+        <audio src="./sound/levels/WateryGraves.mp3" id="auGame"></audio>
+        <audio src="./sound/levels/SFX plant.mp3" id="auPlant"></audio>
+        <!-- <audio src="./sound/levels/05.losemusic.mp3" id="auLose"></audio> -->
+        <div id="main-holder">
+            
+            <div id="start-page" class="show">
+                <div class="loading-box-holder">
+                    <div class="progress">
+                        <div class="inner-progress"></div>
+                    </div>
+                    <p class="progress-text">Loading ... <span id="progress-timer">10</span></p>
+                </div>
+            </div> 
+            
+            <div id="menuPage" class="hide">
+
+                <div class="overlay">
+                    <div id="getUserNameContent">
+                        <label for="name"> Enter Your Name </label>
+                        <input type="text" id="name" name="name">
+                        <span id="submitNameBtn"> OK </span>
+                    </div>
+                </div>
+
+                <div id="userName"></div>
+
+                <div class="menu-holder">
+                    <div id="adventure"></div>
+                    <div id="moreWaysToPlays"></div>
+                    <div class="zombieBlink">
+                        <div id="rightEay"></div>
+                        <div id="leftEay"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="levelsPage" class="hide">
+                <div id="slider">
+                    <div id="levelGallery">
+                        
+                    </div>
+                    <div id ="playBtn" class="hide"> </div>
+                    <div id="levelLeftBtn" class="hide"></div>
+                    <div id="levelRightBtn" ></div>
+                </div>
+                <div class="levelsPlace">
+                    <div id="dayLevelsBtn"></div>
+                    <div id="nightLevelsBtn"></div>
+                    <div id="poolLevelsBtn"></div>
+                    <div id="fogLevelsBtn"></div>
+                    <div id="roofLevelsBtn"></div>
+                </div>
+                <div id="backBtn"></div>
+                
+            </div>
+            <div id="levelOne" class="hide">
+
+                <div id="field"> </div>
+
+                <div class="waterPlantErrorAlert">
+                    <div class="waterPlantError"> This plant cannot be planted in water! </div>
+                </div>
+                <div id="selectCharacter">
+                    <span id="scorePlace"></span>
+                </div>
+    
+                <div id="shovel"></div>
+    
+                <div id="menuBtn">
+                    <span class="menuBtnText"> Menu </span>
+                </div>
+                <div id="gameMenuInfo" class="hide">
+                    <div id="volumeBtn"></div>
+                    <div id="soundBtn"></div>
+                    <div id="backToGameBtn"> back to game</div>
+                    <div id="backToMainMenuBtn"> back to main menu</div>
+                </div>
+
+            </div>
+
+            <div id="loseMessage"></div>
+    
+        </div>
+    </div>
+    <script src="./script/main.js"></script>
+    <script src="./script/menu.js"></script>
+    <script src="./script/levelsSlider.js"></script>
+    <script src="./script/game.js"></script>
+    <script>
+
+        adventure.onclick = function() {
+            menuPage.className = "hide"
+            levelsPage.className = "show"
+        }
+
+        backBtn.onclick = function() {
+            menuPage.className = "show";
+            levelsPage.className = "hide"
+        }
+
+        backToMainMenuBtn.onclick = function() {
+            levelOne.className = "hide"
+            gameMenuInfo.style.display = "none"
+            menuPage.className = "show";
+        }
+       
+    </script>
+</body>
+</html>

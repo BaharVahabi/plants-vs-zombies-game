@@ -1,0 +1,16 @@
+@font-face {
+    font-family: condensed;
+    src: url(../font/SamdanCondensed.ttf);
+}
+@font-face {
+    font-family: sadman;
+    src: url(../font/Samdan.ttf);
+}
+@font-face {
+    font-family: evil;
+    src: url(../font/SamdanEvil.ttf);
+}
+@font-face {
+    font-family: evilCondensed;
+    src: url(../font/SamdanEvilCondensed.ttf);
+}

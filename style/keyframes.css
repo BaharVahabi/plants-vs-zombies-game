@@ -1,0 +1,252 @@
+@keyframes sunflower {
+    0%{background-image: url("../images/frames/sunflower/pics/done/1.png");}
+    5%{background-image: url("../images/frames/sunflower/pics/done/2.png");}
+    10%{background-image: url("../images/frames/sunflower/pics/done/3.png");}
+    15%{background-image: url("../images/frames/sunflower/pics/done/4.png");}
+    20%{background-image: url("../images/frames/sunflower/pics/done/5.png");}
+    25%{background-image: url("../images/frames/sunflower/pics/done/6.png");}
+    30%{background-image: url("../images/frames/sunflower/pics/done/7.png");}
+    35%{background-image: url("../images/frames/sunflower/pics/done/8.png");}
+    40%{background-image: url("../images/frames/sunflower/pics/done/9.png");}
+    45%{background-image: url("../images/frames/sunflower/pics/done/10.png");}
+    50%{background-image: url("../images/frames/sunflower/pics/done/1.png");}
+    55%{background-image: url("../images/frames/sunflower/pics/done/2.png");}
+    60%{background-image: url("../images/frames/sunflower/pics/done/3.png");}
+    65%{background-image: url("../images/frames/sunflower/pics/done/4.png");}
+    70%{background-image: url("../images/frames/sunflower/pics/done/5.png");}
+    75%{background-image: url("../images/frames/sunflower/pics/done/6.png");}
+    80%{background-image: url("../images/frames/sunflower/pics/done/7.png");}
+    85%{background-image: url("../images/frames/sunflower/pics/done/8.png");}
+    90%{background-image: url("../images/frames/sunflower/pics/done/9.png");}
+    95%{background-image: url("../images/frames/sunflower/pics/done/10.png");}
+    100%{background-image: url("../images/frames/sunflower/pics/done/1.png");}
+ 
+}
+@keyframes zombieWalk{
+
+    0% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    0.5% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    1% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    1.5% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    2% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    2.5% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    3% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    3.5% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    4% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    4.5% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    5% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    5.5% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    6% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    6.5% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    7% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    7.5% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    8% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    8.5% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    9% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    9.5% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    10% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    10.5% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    11% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    11.5% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    12% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    12.5% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    13% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    13.5% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    14% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    14.5% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    15% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    15.5% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    16% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    16.5% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    17% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    17.5% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    18% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    18.5% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    19% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    19.5% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    20% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    20.5% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    21% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    21.5% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    22% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    22.5% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    23% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    23.5% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    24% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    24.5% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    25% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    25.5% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    26% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    26.5% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    27% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    27.5% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    28% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    28.5% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    29% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    29.5% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    30% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    30.5% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    31% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    31.5% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    32% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    32.5% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    33% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    33.5% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    34% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    34.5% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    35% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    35.5% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    36% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    36.5% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    37% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    37.5% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    38% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    38.5% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    39% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    39.5% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    40% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    40.5% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    41% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    41.5% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    42% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    42.5% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    43% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    43.5% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    44% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    44.5% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    45% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    45.5% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    46% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    46.5% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    47% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    47.5% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    48% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    48.5% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    49% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    49.5% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    50% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    50.5% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    51% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    51.5% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    52% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    52.5% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    53% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    53.5% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    54% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    54.5% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    55% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    55.5% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    56% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    56.5% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    57% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    57.5% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    58% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    58.5% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    59% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    59.5% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    60% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    60.5% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    61% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    61.5% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    62% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    62.5% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    63% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    63.5% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    64% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    64.5% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    65% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    65.5% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    66% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    66.5% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    67% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    67.5% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    68% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    68.5% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    69% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    69.5% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    70% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    70.5% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    71% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    71.5% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    72% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    72.5% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    73% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    73.5% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    74% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    74.5% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    75% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    75.5% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    76% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    76.5% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    77% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    77.5% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    78% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    78.5% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    79% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    79.5% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    80% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    80.5% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    81% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    81.5% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    82% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    82.5% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    83% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    83.5% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    84% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    84.5% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    85% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    85.5% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    86% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    86.5% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    87% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    87.5% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    88% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    88.5% {background-image: url("../images/frames/regularzombiewalkframe/17.png");}
+    89% {background-image: url("../images/frames/regularzombiewalkframe/18.png");}
+    89.5% {background-image: url("../images/frames/regularzombiewalkframe/19.png");}
+    90% {background-image: url("../images/frames/regularzombiewalkframe/20.png");}
+    90.5% {background-image: url("../images/frames/regularzombiewalkframe/21.png");}
+    91% {background-image: url("../images/frames/regularzombiewalkframe/22.png");}
+    91.5% {background-image: url("../images/frames/regularzombiewalkframe/23.png");}
+    92% {background-image: url("../images/frames/regularzombiewalkframe/1.png");}
+    92.5% {background-image: url("../images/frames/regularzombiewalkframe/2.png");}
+    93% {background-image: url("../images/frames/regularzombiewalkframe/3.png");}
+    93.5% {background-image: url("../images/frames/regularzombiewalkframe/4.png");}
+    94% {background-image: url("../images/frames/regularzombiewalkframe/5.png");}
+    94.5% {background-image: url("../images/frames/regularzombiewalkframe/6.png");}
+    95% {background-image: url("../images/frames/regularzombiewalkframe/7.png");}
+    95.5% {background-image: url("../images/frames/regularzombiewalkframe/8.png");}
+    96% {background-image: url("../images/frames/regularzombiewalkframe/9.png");}
+    96.5% {background-image: url("../images/frames/regularzombiewalkframe/10.png");}
+    97% {background-image: url("../images/frames/regularzombiewalkframe/11.png");}
+    97.5% {background-image: url("../images/frames/regularzombiewalkframe/12.png");}
+    98% {background-image: url("../images/frames/regularzombiewalkframe/13.png");}
+    98.5% {background-image: url("../images/frames/regularzombiewalkframe/14.png");}
+    99% {background-image: url("../images/frames/regularzombiewalkframe/15.png");}
+    99.5% {background-image: url("../images/frames/regularzombiewalkframe/16.png");}
+    100% {background-image: url("../images/frames/regularzombiewalkframe/17.png");
+    transform: translateX(-800px);}
+}
+
+@keyframes bullet {
+    0%{left: 55px; }
+    100%{left:750px; }
+    
+}
+
+/* ========================== بوردر چشمکزن ارورها ============================= */
+
+@keyframes blinkingBorder{
+    0%{
+        border-color: orange;
+        opacity: 1;
+    }
+    50%{
+        border-color: transparent;
+        opacity: .8;
+    }
+    100%{
+        border-color: orange;
+        opacity: 1;
+    }
+}

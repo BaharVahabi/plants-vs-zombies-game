@@ -1,0 +1,9 @@
+@keyframes moveSun {
+    0%{top: 0;}
+    100%{top: 300px;}
+}
+@keyframes bullet {
+    0%{left: 55px; }
+    100%{left:750px; }
+    
+}

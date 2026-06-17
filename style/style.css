@@ -1,0 +1,525 @@
+
+@font-face {
+    font-family: bri;
+    src: url(../font/Brianne_s_hand.ttf);
+}
+
+@font-face {
+    font-family: evil ;
+    src: url(../font/SamdanEvil.ttf);
+}
+
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+#stage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stage #main-holder{
+    width: 1200px;
+    height: 630px;
+}
+
+#start-page{
+    width: 100%;
+    height: 100%;
+    background: url(../firstpage/0000008150.1920x1080\ \(1\).jpg) no-repeat 50%;
+    background-color: black;
+    background-size: 85% 100%;
+}
+
+.loading-box-holder{
+    width: 414px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 37%;
+}
+
+.progress{
+    width: 99%;
+    height: 50%;
+    background: orange;
+    
+    border-radius: 40px;
+    margin-top: 7px;
+    padding: .5%;
+}
+
+.inner-progress{
+    width: 10px;;
+    height: 95%;
+    background: rgb(73, 255, 28);
+    border-radius: 40px;
+    padding: 0;
+    transform-origin: left;
+    transition: width 1s linear;
+    /* margin: auto; */
+}
+
+.progress-text{
+    font-size: large;
+    color: orange;
+    text-align: center;
+}
+#menuPage{
+    width: 1200px;
+    height: 630px;
+    border: 1px solid orange;
+    background: url(../menu/background.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.menu-holder{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 27%;
+    bottom: 140px;
+
+}
+
+#adventure{
+    width: 311px;
+    height: 248px;
+    background: url(../menu/adventure__1_-removebg-preview.png) no-repeat 50%;
+    background-size: 100% 100%;
+    margin-top: -3px;
+}
+
+#adventure:hover{
+    width: 305px;
+    background: url(../menu/adventure__2_-removebg-preview.png) no-repeat 50%;
+    background-size: 100% 100%;
+
+}
+
+#moreWaysToPlays{
+    width: 250px;
+    height: 239px;
+    background: url(../menu/morewaystoplay\ \(1\).png) no-repeat 50%;
+    background-size: 100% 100%;
+    margin-top: -111px;
+    margin-left: 10px;
+}
+
+#moreWaysToPlays:hover{
+    width: 250px;
+    background: url(../menu/morewaystoplay\ \(2\).png) no-repeat 50%;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+#levelOne{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: -1px;
+    left: 157px;
+    background: url("../images/mainmain.png") no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid blue;
+}
+
+#field {
+    width: 90%;
+    height: 85%;
+    margin: 87px 40px;
+    display: grid;
+    grid-template-columns: repeat( 9 , 80px );
+    grid-template-rows: repeat( 6, 80px );
+    gap: 14px;
+    position: relative;
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+}
+
+.plant{
+   width: 60px;
+   height: 60px;
+   margin: auto;
+   margin: 10px;
+   position: absolute;
+   background-size: contain;
+}
+
+.waterPlantErrorAlert{
+    width: 97%;
+    height: 174px;
+    border:14px solid orange;
+    position: absolute;
+    top: 260px; left: 0px;
+    display: none;
+}
+
+.waterPlantError{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:orange;
+    opacity: 0.8;
+    font-size: 28px;
+    color: #fff;
+
+    animation: blinkingBorder 2s infinite;
+    transition: 1.5s;
+}
+
+#selectCharacter {
+    width: 77%;
+    height: 95px;
+    background: url("../images/select.png") no-repeat;
+    background-size: 87% 110%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 17px;
+    left: 6px;
+    cursor: pointer;
+}
+
+.sunflowerMove{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    animation: sunflower 5s linear infinite;
+    background-size: 100% 100%;
+
+}
+.lilyPadMove{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background-size: contain;
+    background: url("../levels/char/lily-pad-idle.gif") no-repeat 50% 50%;
+}
+
+#stage>#mainStageHolder>#regularZombie {
+    width: 60px;
+    height: 80px;
+    background: url("../images/frames/regularzombiewalkframe/Newfolderfolder2/1.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+
+}
+
+#stage>#mainStageHolder>#selectCharacter {
+    width: 77%;
+    height: 88px;
+    background: url("../images/select.png") no-repeat;
+    background-size: 87% 110%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 14px;
+    left: 6px;
+    cursor: pointer;
+}
+
+#scorePlace {
+    width: 60px;
+    height: 22px;
+    font-size: 25px;
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    text-indent: 23px;
+    line-height: 21px;
+    font-family: sadman;
+    font-weight: 500;
+
+
+
+}
+
+.plantsCharacterSelect {
+    width: 53px;
+    height: 65px;
+    margin: 14px 0px;
+    background-size: 100% 100%;
+
+}
+
+.plantsCharacterSelect>img {
+    width: 100%;
+    height: 100%;
+}
+
+#peaShooterSelectCharacter {
+    background-size: 100% 100%;
+}
+
+#lilyPadSelectCharacter {
+    background: url(../images/lilypad.png) no-repeat;
+}
+
+#chomperSelectCharacter {
+    background: url(../images/chomper.png) no-repeat;
+}
+
+.chomperEating{
+    background: url(../levels/char/chomper-eating-zombie.gif) no-repeat;
+}
+
+#spikeRockSelectCharacter {
+    background: url(../images/spikerock.png) no-repeat;
+}
+
+#sunflowerSelectCharacter {
+    background: url(../images/sunflower.png) no-repeat;
+}
+
+#spikeweedSelectCharacter {
+    background: url(../images/spikeweed.png) no-repeat;
+
+}
+
+
+
+#shovel {
+    width: 92px;
+    height: 75px;
+    background: url("../images/shovel.jpg") no-repeat;
+    background-size: 89% 100%;
+    position: absolute;
+    right: 223px;
+    top: 0;
+    cursor: pointer;
+}
+
+#pool {
+    width: 762px;
+    height: 157px;
+    background: url("../images/pool.gif") no-repeat 0 -26px;
+    background-size: 103% 115%;
+    position: absolute;
+    top: 286px;
+    left: 47px;
+    z-index: -1;
+}
+
+#menuBtn {
+    width: 120px;
+    height: 30px;
+    background: url("../images/menubtn.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#menuBtn>.menuBtnText:hover,
+#gameMenuInfo>#backToMainMenuBtn:hover,
+#gameMenuInfo>#backToGameBtn:hover {
+
+    color: rgba(1, 233, 1, 1);
+
+}
+
+#menuBtn>.menuBtnText {
+    font-family: sadman;
+    font-size: 20px;
+    color: rgba(0, 196, 0, 1);
+
+}
+#gameMenuInfo {
+    width: 441px;
+    height: 73%;
+    background: url("../images/menuboxx.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 105px; left: 290px;
+    z-index: 1500;
+
+}
+
+#gameMenuInfo>#volumeBtn {
+    width: 30px;
+    height: 30px;
+    background: url("../images/volume.png") no-repeat 0 -6px;
+    background-size: 46px 41px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    cursor: grab;
+
+}
+
+#gameMenuInfo>#soundBtn {
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    top: 135px; left: 186px;
+    background: url("../images/checkIcon.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+#gameMenuInfo>#backToGameBtn {
+    width: 251px;
+    height: 29px;
+    position: absolute;
+    bottom: 56px; left: 70px;
+    cursor: pointer;
+    font-family: evil;
+    color: rgba(0, 196, 0, 1);
+    font-size: 36px;
+    text-indent: 35px;
+    line-height: 25px;
+
+}
+
+#backToMainMenuBtn {
+    width: 176px;
+    height: 33px;
+    position: absolute;
+    bottom: 170px; left: 111px;
+    cursor: pointer;
+    font-family: sadman;
+    color: rgba(0, 196, 0, 1);
+    font-size: 21px;
+    text-indent: 16px;
+    line-height: 31px;
+
+
+}
+
+@keyframes moveSun {
+    0%{top: 0;}
+    100%{top: 300px;}
+}
+.sun{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 400px;
+    z-index: 1000;
+    background: url(../levels/char/sol-dorado.gif) no-repeat 50% 50%;
+    background-size: contain;
+    animation: moveSun 12s linear forwards;
+}
+.colectSun2{
+    width: 44px;
+    height: 35px;
+    position: absolute;
+    top: 31px;
+    right: -15px;
+    z-index: 1000;
+    background: url(../levels/char/sol-dorado.gif) no-repeat ;
+    background-size: 100% 100%;
+}
+
+.planterOnLily{
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    margin: 10px;
+    position: absolute;
+}
+
+.bullet{
+    width: 18px;
+    height: 17px;
+    position: absolute;
+    top: 8px;
+    z-index: 1000;
+    background: url("../images/frames/bullet.png") no-repeat ;
+    background-size: 100% 100%;
+    animation: bullet 5s linear ;
+}
+
+/*zombie*/
+.regularZombie,.conheadZombie,.poolZombieR,.poolZombieC {
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.regularZombie{
+    background: url(../levels/char/regularZombieWalk.gif)no-repeat;
+    background-size: 100% 100%;
+}
+.conheadZombie{ 
+    background: url(../levels/char/conheadWalking.gif) no-repeat;
+    background-size: 100% 100%;
+}
+.poolZombieR{
+    background: url(../levels/char/regularZombiePool.gif) no-repeat;
+    background-size: 100% 100%;
+}
+.poolZombieC{ 
+    background: url(../levels/char/Untitled-1.gif) no-repeat;
+    background-size:100% 100%;
+}
+
+.eating {
+  background: url(../levels/char/regularZombieEating.gif) no-repeat;
+    background-size:100% 100%;
+}
+     
+.conheadEating{ 
+    background: url(../levels/char/cnheadEating.gif) no-repeat;
+    background-size:100% 100%;
+}
+.conheadEatingPool{
+    background: url(../levels/char/conheadZombiePoolEating.gif) no-repeat;
+    background-size:100% 100%;
+}
+.regularEatingPool{
+        background: url(../levels/char/regularZombiePoolEating.gif) no-repeat;
+        background-size:100% 100%;
+}
+
+#loseMessage{
+    width: 388px;
+    height: 300px;
+    border-radius: 10px;
+    background: url(../levels/levelstage/losemessage.png) no-repeat 50%;
+    background-size: contain;
+    background-color: #000;
+    position: absolute;
+    left: 455px; top: 160px;
+    z-index: 100;
+    display: none;
+}
