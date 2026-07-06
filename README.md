@@ -19,19 +19,17 @@
 
 ## 📚 Table of Contents
 
-- [📖 About The Project](#-about-the-project)
-- [✨ Features](#-features)
-- [🎮 Gameplay](#-gameplay)
-- [🛠 Technologies](#-technologies)
-- [⚙️ Game Mechanics](#️-game-mechanics)
-- [📂 Project Structure](#-project-structure)
-- [🚀 Getting Started](#-getting-started)
-- [🎮 Controls](#-controls)
-- [📸 Screenshots](#-screenshots)
-- [🗺️ Roadmap](#️-roadmap)
-- [🙏 Acknowledgements](#-acknowledgements)
-- [⚠️ Disclaimer](#️-disclaimer)
-- [📄 License](#-license)
+- [📖 About The Project](#user-content--about-the-project)
+- [✨ Features](#user-content--features)
+- [🎮 Gameplay](#user-content--gameplay)
+- [🛠 Technologies](#user-content--technologies)
+- [⚙️ Game Mechanics](#user-content--game-mechanics)
+- [📂 Project Structure](#user-content--project-structure)
+- [🚀 Getting Started](#user-content--getting-started)
+- [🎮 Controls](#user-content--controls)
+- [📸 Screenshots](#user-content--screenshots)
+- [⚠️ Disclaimer](#user-content--disclaimer)
+- [📄 License](#user-content--license)
 - 
 ## 📖 About The Project
 
