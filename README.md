@@ -181,14 +181,10 @@ You only need a modern web browser such as:
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/BaharVahabi/plants-vs-zombies-game.git
 ```
 
 2. Navigate to the project directory.
-
-```bash
-cd <repository-name>
-```
 
 3. Open the project.
 
